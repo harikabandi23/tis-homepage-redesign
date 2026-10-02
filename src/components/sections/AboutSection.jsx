@@ -1,99 +1,109 @@
 import { ArrowUpRight, Check } from 'lucide-react'
 import './AboutSection.css'
+import Reveal from '../animation/Reveal'
 
 const highlights = [
-  'Student-centered learning',
+  'CBSE curriculum',
+  'Boarding and day school',
   'Holistic development',
-  'Experienced educators',
-  'Strong values and character',
+  'Leadership and lifelong learning',
 ]
 
 const stats = [
-  { number: '25+', label: 'Years of excellence' },
-  { number: '1000+', label: 'Students' },
-  { number: '50+', label: 'Expert educators' },
-  { number: '20+', label: 'Learning programs' },
+  { number: '22', label: 'Acre pollution-free campus' },
+  { number: '16+', label: 'Sports opportunities' },
+  { number: '24×7', label: 'Medical assistance' },
+  { number: '6:1', label: 'Student-teacher ratio' },
 ]
 
 function AboutSection() {
   return (
     <section id="about" className="about">
       <div className="container">
-        <div className="about__intro">
-          <div className="about__label">
-            <span></span>
-            About TIS
-          </div>
 
-          <div className="about__intro-content">
-            <h2>
-              Education that goes
-              <span> beyond the classroom.</span>
-            </h2>
-
-            <p>
-              At Tulas International School, learning is more than academics.
-              We create an environment where curiosity, creativity, confidence,
-              and character grow together.
-            </p>
-          </div>
-        </div>
-
-        <div className="about__main">
-          <div className="about__visual">
-            <div className="about__visual-main">
-              <span>TIS</span>
-              <small>Learn • Grow • Lead</small>
+        <Reveal>
+          <div className="about__intro">
+            <div className="about__label">
+              <span></span>
+              About TIS
             </div>
 
-            <div className="about__visual-card">
-              <strong>01</strong>
-              <span>A foundation for lifelong learning</span>
+            <div className="about__intro-content">
+              <h2>
+                Boarding and day school
+                <span> excellence in Dehradun.</span>
+              </h2>
+
+              <p>
+                Tulas International School is a CBSE boarding and day school
+                in Dehradun focused on academic excellence, holistic
+                development, and preparing students to become global leaders.
+              </p>
             </div>
           </div>
+        </Reveal>
 
-          <div className="about__content">
-            <span className="about__eyebrow">
-              Building tomorrow's leaders
-            </span>
+        <Reveal delay={0.1}>
+          <div className="about__main">
+            <div className="about__visual">
+              <div className="about__visual-main">
+                <span>TIS</span>
+                <small>Learn • Grow • Lead</small>
+              </div>
 
-            <h3>
-              A place where every
-              <span> student can thrive.</span>
-            </h3>
-
-            <p>
-              Our approach combines academic excellence with opportunities
-              that help students explore their interests, develop essential
-              life skills, and become responsible members of society.
-            </p>
-
-            <div className="about__highlights">
-              {highlights.map((item) => (
-                <div key={item} className="about__highlight">
-                  <span className="about__check">
-                    <Check size={14} />
-                  </span>
-                  {item}
-                </div>
-              ))}
+              <div className="about__visual-card">
+                <strong>2012</strong>
+                <span>Established under Rishabh Educational Trust</span>
+              </div>
             </div>
 
-            <a href="#academics" className="about__link">
-              Explore our approach
-              <ArrowUpRight size={17} />
-            </a>
+            <div className="about__content">
+              <span className="about__eyebrow">
+                Education with purpose
+              </span>
+
+              <h3>
+                Learning that goes
+                <span> beyond academics.</span>
+              </h3>
+
+              <p>
+                TIS aims to provide modern facilities and a nurturing
+                environment where students can grow academically, socially,
+                culturally, and personally while developing leadership,
+                innovation, and lifelong-learning skills.
+              </p>
+
+              <div className="about__highlights">
+                {highlights.map((item) => (
+                  <div key={item} className="about__highlight">
+                    <span className="about__check">
+                      <Check size={14} />
+                    </span>
+                    {item}
+                  </div>
+                ))}
+              </div>
+
+              <a href="#academics" className="about__link">
+                Explore academics
+                <ArrowUpRight size={17} />
+              </a>
+            </div>
           </div>
-        </div>
+        </Reveal>
 
-        <div className="about__stats">
-          {stats.map((stat) => (
-            <div key={stat.label} className="about__stat">
-              <strong>{stat.number}</strong>
-              <span>{stat.label}</span>
-            </div>
-          ))}
-        </div>
+        <Reveal delay={0.2}>
+          <div className="about__stats">
+            {stats.map((stat) => (
+              <div key={stat.label} className="about__stat">
+                <strong>{stat.number}</strong>
+                <span>{stat.label}</span>
+              </div>
+            ))}
+          </div>
+        </Reveal>
+
       </div>
     </section>
   )

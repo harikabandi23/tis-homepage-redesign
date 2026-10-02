@@ -13,12 +13,12 @@ function Footer() {
             <h3>Tulas International School</h3>
 
             <p>
-              Inspiring minds, shaping futures through education,
-              character, and leadership.
+              A CBSE boarding and day school in Dehradun focused on academic
+              excellence, holistic development, and leadership.
             </p>
 
             <a href="#admissions" className="footer__cta">
-              Begin Your TIS Journey
+              Enquire Now
               <ArrowUpRight size={17} />
             </a>
           </div>
@@ -36,10 +36,10 @@ function Footer() {
           <div className="footer__column">
             <h4>Academics</h4>
 
-            <a href="#academics">Early Years</a>
-            <a href="#academics">Primary School</a>
-            <a href="#academics">Secondary School</a>
-            <a href="#academics">Learning Programs</a>
+            <a href="#academics">Learning</a>
+            <a href="#academics">Sports</a>
+            <a href="#academics">Holistic Development</a>
+            <a href="#admissions">Admission Enquiry</a>
           </div>
 
           <div className="footer__contact">
@@ -48,20 +48,28 @@ function Footer() {
             <div className="footer__contact-item">
               <MapPin size={18} />
               <span>
-                Tulas International School
+                Dhoolkot, P.O – Selaqui,
                 <br />
-                Hyderabad, Telangana
+                Chakrata Road,
+                <br />
+                Dehradun-248011,
+                <br />
+                Uttarakhand
               </span>
             </div>
 
             <div className="footer__contact-item">
               <Phone size={18} />
-              <span>+91 XXXXX XXXXX</span>
+              <span>
+                +91-9837983791
+                <br />
+                0135-2699444
+              </span>
             </div>
 
             <div className="footer__contact-item">
               <Mail size={18} />
-              <span>info@tulasinternationalschool.com</span>
+              <span>info@tis.edu.in</span>
             </div>
           </div>
 
@@ -69,7 +77,7 @@ function Footer() {
 
         <div className="footer__bottom">
           <p>
-            © 2026 Tulas International School. All rights reserved.
+            © 2026 Tulas International School, Dehradun. All rights reserved.
           </p>
 
           <div className="footer__socials">

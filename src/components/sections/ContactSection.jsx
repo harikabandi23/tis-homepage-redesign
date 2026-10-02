@@ -18,9 +18,8 @@ function ContactSection() {
             </h2>
 
             <p>
-              Have questions about Tulas International School?
-              Our team is here to help you learn more about the
-              school, admissions, and campus experience.
+              Have questions about admissions, academics, boarding life, or
+              the TIS experience? Get in touch with the school team.
             </p>
           </div>
         </div>
@@ -37,7 +36,11 @@ function ContactSection() {
                 <p>
                   Tulas International School
                   <br />
-                  Hyderabad, Telangana
+                  Dhoolkot, P.O – Selaqui,
+                  <br />
+                  Chakrata Road, Dehradun-248011
+                  <br />
+                  Uttarakhand
                 </p>
               </div>
             </div>
@@ -49,7 +52,13 @@ function ContactSection() {
 
               <div>
                 <h3>Call Us</h3>
-                <p>Speak with our admissions team.</p>
+                <p>
+                  +91-9837983791
+                  <br />
+                  0135-2699444
+                  <br />
+                  0135-2699666
+                </p>
               </div>
             </div>
 
@@ -60,7 +69,7 @@ function ContactSection() {
 
               <div>
                 <h3>Email Us</h3>
-                <p>Send us your questions and enquiries.</p>
+                <p>info@tis.edu.in</p>
               </div>
             </div>
           </div>
@@ -74,9 +83,8 @@ function ContactSection() {
             </h3>
 
             <p>
-              Get in touch with our admissions team and take
-              the next step towards your child's educational
-              journey.
+              Explore the TIS experience and connect with the admissions team
+              to learn more about the school.
             </p>
 
             <a href="#admissions" className="contact__button">
